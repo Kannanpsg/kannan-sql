@@ -25,7 +25,7 @@ CREATE TABLE mentors (mentor_id int,mentor_name varchar(45), students_taught int
 CREATE TABLE students_activated_courses (user_id int,student_name varchar(45), active_course varchar(10));
 CREATE TABLE courses (course_id int,course_name varchar(45), course_start_date DATE,course_end_date DATE);
 
-INSERT INTO users (user_id,student_name,mentor_name) VALUES (1,'Ram','Harry Sir'), 
+INSERT INTO users (user_id,student_name,mentor_name) VALUES (1,'Ram','ragav sir'), 
 (2,'Mad','Larry Mam'),(3,'Leo','Jack Sir'),(4,'Perry','Ginny Mam'),(5,'Dhruv','Shivam Sir');
 INSERT INTO codekata (user_id,student_name,problems_solved) VALUES (1,'Ram',15), 
 (2,'Mad',6),(3,'Leo',10),(4,'Perry',12),(5,'Dhruv',8);
@@ -37,7 +37,7 @@ INSERT INTO tasks (user_id,student_name,task_assigned) VALUES (1,'Ram','Assignme
 (2,'Mad','Assignment3'),(3,'Leo','Assignment2'),(4,'Perry','Assignment8'),(5,'Dhruv','Assignment11');
 INSERT INTO company_drives (user_id,student_name,drives_attended) VALUES (1,'Ram',15), 
 (2,'Mad',9),(3,'Leo',20),(4,'Perry',5),(5,'Dhruv',17);
-INSERT INTO mentors (mentor_id,mentor_name,students_taught) VALUES (1000,'Harry Sir',3), 
+INSERT INTO mentors (mentor_id,mentor_name,students_taught) VALUES (1000,'ragav Sir',3), 
 (1001,'Larry Mam',2),(1002,'Jack Sir',1),(1003,'Ginny Mam',2),(1004,'Shivam Sir',3);
 INSERT INTO students_activated_courses (user_id,student_name,active_course) VALUES (1,'Ram','CSE'), 
 (2,'Mad','CSE'),(3,'Leo','EEE'),(4,'Perry','ECE'),(5,'Dhruv','CSE');
